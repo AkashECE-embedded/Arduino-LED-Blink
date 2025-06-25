@@ -1,0 +1,18 @@
+
+//  Embedded Systems - Day 1
+
+void setup() {
+  // Set digital pin 13 as OUTPUT
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  // Turn the LED ON
+  digitalWrite(13, HIGH);
+  delay(1000);  // Wait for 1 second (1000 milliseconds)
+
+  // Turn the LED OFF
+  digitalWrite(13, LOW);
+  delay(1000);  // Wait for 1 second
+}
+//Added LED Blink Arduino project
